@@ -1,0 +1,4 @@
+(executable
+ (name handin01))
+
+(env (dev (flags (:standard -warn-error -A))))

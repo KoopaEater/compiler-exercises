@@ -1,0 +1,15 @@
+digraph AST {
+  0 [label="Add"];
+  1 [label="Mul"];
+  2 [label="Int 2"];
+  3 [label="Div"];
+  4 [label="Int 16"];
+  5 [label="Int 4"];
+  3 -> 4;
+  3 -> 5;
+  1 -> 2;
+  1 -> 3;
+  6 [label="Int 1"];
+  0 -> 1;
+  0 -> 6;
+}

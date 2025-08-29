@@ -1,0 +1,4 @@
+(executable
+ (name ast_traversal))
+
+(env (dev (flags (:standard -warn-error -A))))
